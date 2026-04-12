@@ -10,7 +10,7 @@ The Complete Code will be submitted after ours paper is accepts
 提取码：ivie 
 
 
-## ![系统结构图](system.png)
+## ![系统结构图](CASG_OVERLEAF.png)
 
 # DS-YOLO: A Robotic Grasping Method of Box-Shaped Objects Based on Dual-Stream YOLO
 
