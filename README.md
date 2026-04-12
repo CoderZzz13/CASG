@@ -28,12 +28,11 @@ https://youtu.be/IVwSE0scVIk
 https://www.bilibili.com/video/BV1kUHDeZEVd
 
 ## Datasets Download:
-### Google Cloud Drive
-https://drive.google.com/file/d/1q8ADmzlx0v_DcgkVKSn5sjA1ZDqhoqtP/view?usp=drive_link
+
 
 ### baidu pan
-链接：https://pan.baidu.com/s/1gy5uSEOkZksnSurz3uXQcQ?pwd=ivie 
-提取码：ivie 
+链接： 
+提取码： 
 
 ## Frame diagram
 ### ![系统结构图](./CASG_OVERLEAF.png)
