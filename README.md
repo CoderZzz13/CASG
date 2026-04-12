@@ -1,13 +1,13 @@
 # CASG
 A Multi-Stage Domain Adaptation Strategy Framework for Grasping Solid-Colored, Low-Texture, Square-Bottled Objects
-The Complete Code will be submitted after ours paper is accepts
+The Complete Code and Datasets will be submitted after ours paper is accepts
 
 
 ## 数据集下载:
 ### 百度网盘
-链接：https://pan.baidu.com/s/1gy5uSEOkZksnSurz3uXQcQ?pwd=ivie 
+链接：
 
-提取码：ivie 
+提取码： 
 
 
 
