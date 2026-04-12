@@ -10,7 +10,6 @@ The Complete Code will be submitted after ours paper is accepts
 提取码：ivie 
 
 
-## ![系统结构图]
 
 # CASG: Cross-modal Alignment Grasping
 
@@ -37,7 +36,7 @@ https://drive.google.com/file/d/1q8ADmzlx0v_DcgkVKSn5sjA1ZDqhoqtP/view?usp=drive
 提取码：ivie 
 
 ## Frame diagram
-### ![系统结构图](/CASG_OVERLEAF.png)
+### ![系统结构图](./CASG_OVERLEAF.png)
 
 ## Experimental index
 ### Results on a jumbled stacked box-shaped dataset
