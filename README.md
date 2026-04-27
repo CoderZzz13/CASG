@@ -22,8 +22,8 @@ Stage 3: Grasping Estimation. During the inference phase in real-world scenarios
 
 **The source code will be submitted after the paper is accepted.**
 # Grasping demo video:
-## BiliBiLi
-https://youtu.be/IVwSE0scVIk
+## Toutube
+https://youtu.be/rTdYezG8t2c
 
 
 ## Datasets Download:
