@@ -1,17 +1,16 @@
-# CASG
+# CMAG
 A Multi Stage Domain Adaptation Strategy Framework for Grasping Solid Colored, No Texture, Recutangle Bottled Objects
 The Complete Code and Datasets will be submitted after ours paper is accepts
 
-
-## 数据集下载:
-### 百度网盘
-链接：
-
-提取码： 
+## Datasets Download:
 
 
+### baidu pan
+Link： 
+Code： 
 
-# CASG: Cross-modal Alignment Grasping
+
+# CMAG: Cross-modal Alignment Grasping
 
 
 Stage 1: Cross-Modal Pretrainer. Employing self-supervised contrastive learning, joint pretraining is conducted on the backbone network of RE-YOLO using unlabeled training sets from both the source and target domains. This aims to extract domain-agnostic features with strong generalization potential.
@@ -26,12 +25,6 @@ Stage 3: Grasping Estimation. During the inference phase in real-world scenarios
 https://youtu.be/rTdYezG8t2c
 
 
-## Datasets Download:
-
-
-### baidu pan
-链接： 
-提取码： 
 
 ## Frame diagram
 ### ![系统结构图](./CASG_OVERLEAF.png)
