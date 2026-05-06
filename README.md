@@ -1,5 +1,5 @@
 # CMAG
-A Multi Stage Domain Adaptation Strategy Framework for Grasping Solid Colored, No Texture, Recutangle Bottled Objects
+A Multi Stage Domain Adaptation Strategy Framework for Grasping Solid Colored, No Texture, Recutangle Bottled Objects.
 The Complete Code and Datasets will be submitted after ours paper is accepts
 
 ## Datasets Download:
