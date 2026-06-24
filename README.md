@@ -47,7 +47,7 @@ https://www.bilibili.com/video/BV1s6RWB1EtJ/?vd_source=c8e55916427f2dee83d3fddf7
 
 ## Frame diagram
 ### ![系统结构图](./CMAG.png)
-### ![cross-modal contrastive pre-training framework](./CASG_OVERLEAF.png)
+### ![cross-modal contrastive pre-training framework](./Contrastive_pre.png)
 
 ## Experimental index
 ### Results on a jumbled stacked box-shaped dataset
