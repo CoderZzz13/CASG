@@ -50,7 +50,7 @@ https://www.bilibili.com/video/BV1s6RWB1EtJ/?vd_source=c8e55916427f2dee83d3fddf7
 ### ![cross-modal contrastive pre-training framework](./Contrastive_pre.png)
 
 ## Experimental index
-### Results on a jumbled stacked box-shaped dataset
+### Results on Snack Box dataset
 | **Modality** | **Method** | **mAP50** | **mAP50-95** |
 |:------------:|:----------:|:---------:|:------------:|
 | RGBD         | (2023)YOLOV8      | 95.6     | 90.9      |
