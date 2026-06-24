@@ -42,7 +42,7 @@ CROSS_TLB: https://drive.google.com/file/d/1MK-hAHTJukLC-G08AXFsH1SHjj4_Arbz/vie
 
 
 # Grasping demo video:
-## Toutube
+## Youtube
 https://youtu.be/lWrL7XP-W44
 
 ## BiliBili
