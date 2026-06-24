@@ -107,6 +107,6 @@ https://www.bilibili.com/video/BV1s6RWB1EtJ/?vd_source=c8e55916427f2dee83d3fddf7
 | **Modality** | **Method**               | **mAP50** | **mAP50-95** |
 |:------------:|:------------------------:|:---------:|:------------:|
 | RGBD         | (2017)Cyclegan      | 63.4     | 41.3     |
-| RGBD         | (2025)YOLOV11      | 62.1     | 40.7      |
-| RGBD        | DS-YOLO     | 64.2     | 45.9         |
+| RGBD         | (2025)DS-YOLO      | 62.1     | 40.7      |
+| RGBD        | RE-YOLO     | 64.2     | 45.9         |
 | RGBD        | ours                     | **67.8**      | **49**        |
