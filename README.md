@@ -72,7 +72,7 @@ https://www.bilibili.com/video/BV1s6RWB1EtJ/?vd_source=c8e55916427f2dee83d3fddf7
 | RGB+IR       | (2025)VIF_YOLO          | 96.3     | 64.5        |
 | RGB+IR       | ours                     | 97      | **66.3**        |
 
-### Results on the WTB infrared dataset
+### Results on the WTB  dataset
 | **Modality** | **Method**               | **mAP50** | **mAP50-95** |
 |:------------:|:------------------------:|:---------:|:------------:|
 | RGBD         | (2023)YOLOV8      | 95.8     | 88     |
@@ -83,7 +83,7 @@ https://www.bilibili.com/video/BV1s6RWB1EtJ/?vd_source=c8e55916427f2dee83d3fddf7
 | RGBD        | (2025)DS-YOLO     | 96     | 88.8         |
 | RGBD        | ours                     | 97      | **89.5**        |
 
-### Results on the Cross Domain WTB infrared dataset
+### Results on the Cross Domain WTB  dataset
 | **Modality** | **Method**               | **mAP50** | **mAP50-95** |
 |:------------:|:------------------------:|:---------:|:------------:|
 | RGBD         | (2017)Cyclegan      | 83.4    | 67.8     |
@@ -91,7 +91,7 @@ https://www.bilibili.com/video/BV1s6RWB1EtJ/?vd_source=c8e55916427f2dee83d3fddf7
 | RGBD        | RE-YOLO           | 84.6    | 69.1       |
 | RGBD        | ours                     | 85.5      | **73.1**        |
 
-### Results on the Cross Domain Snack Box infrared dataset
+### Results on the Cross Domain Snack Box  dataset
 | **Modality** | **Method**               | **mAP50** | **mAP50-95** |
 |:------------:|:------------------------:|:---------:|:------------:|
 | RGBD         | (2017)Cyclegan      | 63.4     | 41.3     |
