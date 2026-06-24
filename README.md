@@ -10,7 +10,7 @@ pre-training is performed on both unlabeled synthetic and real data to enhance c
 feature discriminability. Second, a domain adaptation stage introduces a Gradient Reversal Layer
 (GRL) for adversarial learning, enabling the extraction of domain-invariant representations.
 Finally, mask back-projection and principal axis analysis are employed to estimate reliable grasp
-poses for robotic manipulation. In addition, we construct and release a large-scale TextureLess Bottle (TLB) dataset to fill the gap in this domain. Extensive experiments demonstrate
+poses for robotic manipulation. In addition, we construct and release a large-scale TextureLess Bottle (TLB) dataset to fill the gap in this domain. Extensive experiments demonstrate
 that CMAG effectively alleviates feature sparsity and domain shift in complex industrial
 environments. RE-YOLO achieves mAP50-95 scores of 89.5% and 91.6% on the TLB and Snack
 Box datasets, respectively, outperforming DS-YOLO by 0.7% and 1.5%. In cross-domain tasks,
