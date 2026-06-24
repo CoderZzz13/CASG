@@ -16,14 +16,14 @@ environments. RE-YOLO achieves mAP50-95 scores of 89.5% and 91.6% on the TLB and
 Box datasets, respectively, outperforming DS-YOLO by 0.7% and 1.5%. In cross-domain tasks,
 namely CDSB and CDTLB, CMAG attains mAP50-95 scores of 73.1% and 49.0%, surpassing
 the Source-only RE-YOLO baseline by 4.0% and 3.1%, respectively. 
-The Complete Code and Datasets will be submitted after ours paper is accepts
+The Complete Code and Datasets will be submitted after ours paper is accepts.
 
 ## Datasets Download:
 
 LLVIP:https://bupt-ai-cz.github.io/LLVIP/
 SNACK-BOX:https://drive.google.com/file/d/1q8ADmzlx0v_DcgkVKSn5sjA1ZDqhoqtP/view?usp=drive_link
-SNACK-BOX-REAL:We will upload it after the paper is accepted.
-TLB:We will upload it after the paper is accepted.
+SNACK-BOX-REAL:We will upload it after the paper is accepted
+TLB:We will upload it after the paper is accepted
 
 # CMAG: Cross-modal Alignment Grasping
 
