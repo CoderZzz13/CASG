@@ -16,7 +16,7 @@ environments. RE-YOLO achieves mAP50-95 scores of 89.5% and 91.6% on the TLB and
 Box datasets, respectively, outperforming DS-YOLO by 0.7% and 1.5%. In cross-domain tasks,
 namely CDSB and CDTLB, CMAG attains mAP50-95 scores of 73.1% and 49.0%, surpassing
 the Source-only RE-YOLO baseline by 4.0% and 3.1%, respectively. 
-The Complete Code and Datasets will be submitted after ours paper is accepts.
+**The Complete Code and Datasets will be submitted after ours paper is accepts.**
 
 ## Datasets Download:
 
@@ -48,7 +48,7 @@ Stage 2: Domain Adaptation for Instance Segmentation. Learning is conducted on a
 
 Stage 3: Grasping Estimation. During the inference phase in real-world scenarios, the system utilizes the instance masks output by the RE-YOLO network, combined with depth information, to reconstruct partial point clouds of the objects. It then calculates reliable grasping points and executes the grasp.
 
-**The source code will be submitted after the paper is accepted.**
+
 # Grasping demo video:
 ## Toutube
 https://youtu.be/lWrL7XP-W44
