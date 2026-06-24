@@ -28,6 +28,18 @@ SNACK-BOX-REAL: We will upload it after the paper is accepted
 
 TLB: We will upload it after the paper is accepted
 
+## Weight Download:
+
+LLVIP: https://drive.google.com/file/d/1O_jvppr2ymWTQc5luIrUfWqq8gpxvleq/view?usp=sharing
+
+SNACK-BOX: https://drive.google.com/file/d/1_Gti5hbO1h27WmCbGO3T24XDoZAzkaSP/view?usp=sharing
+
+TLB: https://drive.google.com/file/d/1GuyaFOt0UrUf8UpFqWdfuDhNu12GIQ46/view?usp=sharing
+
+CROSS_BOX: https://drive.google.com/file/d/1pnM-Z32odrnv86ayp4HQ_fZ-SRmhPoXy/view?usp=sharing
+
+CROSS_TLB: https://drive.google.com/file/d/1MK-hAHTJukLC-G08AXFsH1SHjj4_Arbz/view?usp=sharing
+
 # CMAG: Cross-modal Alignment Grasping
 
 Stage 1: Cross-Modal Pretrainer. Employing self-supervised contrastive learning, joint pretraining is conducted on the backbone network of RE-YOLO using unlabeled training sets from both the source and target domains. This aims to extract domain-agnostic features with strong generalization potential.
