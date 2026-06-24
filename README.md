@@ -1,17 +1,31 @@
 # A Grasping Method Based on Domain Generalization for Texture-Less Rectangular Bottles
-A Multi Stage Domain Adaptation Strategy Framework for Grasping Solid Colored, No Texture, Recutangle Bottled Objects.
+Robotic grasping of texture-less objects in cluttered industrial environments remains challenging due to the lack of visual texture, strong specular reflections, severe occlusion, and the
+inevitable Sim-to-Real domain gap. To address these issues, we propose a novel grasping framework, termed Cross-Modal Alignment Grasping (CMAG), for texture-less industrial containers.
+Specifically, we first develop a dual-stream RGB-D instance segmentation network, termed
+Receptive Expansion YOLO (RE-YOLO). By incorporating the ADOWN module, an enhanced
+RE-C3K2 module, and a multi-scale dense fusion strategy, the network effectively captures
+both visual and geometric features by exploiting the complementarity between RGB and depth
+modalities. Building upon this, CMAG adopts a three-stage learning strategy. First, contrastive
+pre-training is performed on both unlabeled synthetic and real data to enhance cross-domain
+feature discriminability. Second, a domain adaptation stage introduces a Gradient Reversal Layer
+(GRL) for adversarial learning, enabling the extraction of domain-invariant representations.
+Finally, mask back-projection and principal axis analysis are employed to estimate reliable grasp
+poses for robotic manipulation. In addition, we construct and release a large-scale TextureLess Bottle (TLB) dataset to fill the gap in this domain. Extensive experiments demonstrate
+that CMAG effectively alleviates feature sparsity and domain shift in complex industrial
+environments. RE-YOLO achieves mAP50-95 scores of 89.5% and 91.6% on the TLB and Snack
+Box datasets, respectively, outperforming DS-YOLO by 0.7% and 1.5%. In cross-domain tasks,
+namely CDSB and CDTLB, CMAG attains mAP50-95 scores of 73.1% and 49.0%, surpassing
+the Source-only RE-YOLO baseline by 4.0% and 3.1%, respectively. 
 The Complete Code and Datasets will be submitted after ours paper is accepts
 
 ## Datasets Download:
 
-
-### baidu pan
-Link： 
-Code： 
-
+LLVIP:https://bupt-ai-cz.github.io/LLVIP/
+SNACK-BOX:https://drive.google.com/file/d/1q8ADmzlx0v_DcgkVKSn5sjA1ZDqhoqtP/view?usp=drive_link
+SNACK-BOX-REAL:We will upload it after the paper is accepted.
+TLB:We will upload it after the paper is accepted.
 
 # CMAG: Cross-modal Alignment Grasping
-
 
 Stage 1: Cross-Modal Pretrainer. Employing self-supervised contrastive learning, joint pretraining is conducted on the backbone network of RE-YOLO using unlabeled training sets from both the source and target domains. This aims to extract domain-agnostic features with strong generalization potential.
 
