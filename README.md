@@ -72,7 +72,7 @@ https://www.bilibili.com/video/BV1s6RWB1EtJ/?vd_source=c8e55916427f2dee83d3fddf7
 | RGB+IR       | (2025)VIF_YOLO          | 96.3     | 64.5        |
 | RGB+IR       | ours                     | 97      | **66.3**        |
 
-### Results on the WTB  dataset
+### Results on the TLB  dataset
 | **Modality** | **Method**               | **mAP50** | **mAP50-95** |
 |:------------:|:------------------------:|:---------:|:------------:|
 | RGBD         | (2023)YOLOV8      | 95.8     | 88     |
@@ -83,7 +83,7 @@ https://www.bilibili.com/video/BV1s6RWB1EtJ/?vd_source=c8e55916427f2dee83d3fddf7
 | RGBD        | (2025)DS-YOLO     | 96     | 88.8         |
 | RGBD        | ours                     | 97      | **89.5**        |
 
-### Results on the Cross Domain WTB  dataset
+### Results on the Cross Domain TLB  dataset
 | **Modality** | **Method**               | **mAP50** | **mAP50-95** |
 |:------------:|:------------------------:|:---------:|:------------:|
 | RGBD         | (2017)Cyclegan      | 83.4    | 67.8     |
