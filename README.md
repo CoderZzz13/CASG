@@ -1,6 +1,6 @@
 # A Grasping Method Based on Domain Generalization for Texture-Less Rectangular Bottles
-Robotic grasping of texture-less objects in cluttered industrial environments remains challenging due to the lack of visual texture, strong specular reflections, severe occlusion, and the
-inevitable Sim-to-Real domain gap. To address these issues, we propose a novel grasping framework, termed Cross-Modal Alignment Grasping (CMAG), for texture-less industrial containers.
+Robotic grasping of texture-less objects in cluttered industrial environments remains challenging due to the lack of visual texture, strong specular reflections, severe occlusion, and the
+inevitable Sim-to-Real domain gap. To address these issues, we propose a novel grasping framework, termed Cross-Modal Alignment Grasping (CMAG), for texture-less industrial containers.
 Specifically, we first develop a dual-stream RGB-D instance segmentation network, termed
 Receptive Expansion YOLO (RE-YOLO). By incorporating the ADOWN module, an enhanced
 RE-C3K2 module, and a multi-scale dense fusion strategy, the network effectively captures
