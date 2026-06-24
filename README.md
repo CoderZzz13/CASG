@@ -77,12 +77,12 @@ https://www.bilibili.com/video/BV1s6RWB1EtJ/?vd_source=c8e55916427f2dee83d3fddf7
 | **Modality** | **Method**               | **mAP50** | **mAP50-95** |
 |:------------:|:------------------------:|:---------:|:------------:|
 | RGB+IR       | (2025)CAMDet           | 96.5    | 62.7       |
-| RGB+IR       | (2025)Mamba-Fusion       |97    | 63       |
+| RGB+IR       | (2025)Mamba-Fusion       |**97**    | 63       |
 | RGB+IR       | (2025)RSDet          | 95.8     | 65.3        |
 | RGB+IR       | (2025)EI²Det   | 98      | 63.9         |
 | RGB+IR       | (2025)DS-YOLO     | 97     | 65.3         |
 | RGB+IR       | (2025)VIF_YOLO          | 96.3     | 64.5        |
-| RGB+IR       | ours                     | 97      | **66.3**        |
+| RGB+IR       | ours                     | **97**     | **66.3**        |
 
 ### Results on the TLB  dataset
 | **Modality** | **Method**               | **mAP50** | **mAP50-95** |
@@ -90,10 +90,10 @@ https://www.bilibili.com/video/BV1s6RWB1EtJ/?vd_source=c8e55916427f2dee83d3fddf7
 | RGBD         | (2023)YOLOV8      | 95.8     | 88     |
 | RGBD         | (2024)YOLOV11      | 96.2     | 88.9      |
 | RGBD        | (2025)AS-YOLO           | 95.7    | 89.4       |
-| RGBD        | (2025)CFT       |98.4    | 84       |
+| RGBD        | (2025)CFT       |**98.4**   | 84       |
 | RGBD        | (2025)DE-YOLO   | 94.2      | 88.1        |
 | RGBD        | (2025)DS-YOLO     | 96     | 88.8         |
-| RGBD        | ours                     | 97      | **89.5**        |
+| RGBD        | ours                     | **97**       | **89.5**        |
 
 ### Results on the Cross Domain Snack Box   dataset
 | **Modality** | **Method**               | **mAP50** | **mAP50-95** |
@@ -101,7 +101,7 @@ https://www.bilibili.com/video/BV1s6RWB1EtJ/?vd_source=c8e55916427f2dee83d3fddf7
 | RGBD         | (2017)Cyclegan      | 83.4    | 67.8     |
 | RGBD         | (2025)DS-YOLO      | 80     | 63      |
 | RGBD        | RE-YOLO           | 84.6    | 69.1       |
-| RGBD        | ours                     | 85.5      | **73.1**        |
+| RGBD        | ours                     | **85.5**     | **73.1**        |
 
 ### Results on the Cross Domain TLB  dataset
 | **Modality** | **Method**               | **mAP50** | **mAP50-95** |
