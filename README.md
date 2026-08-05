@@ -1,21 +1,23 @@
 # A Grasping Method Based on Domain Generalization for Texture-Less Rectangular Bottles
-Robotic grasping of texture-less objects in cluttered industrial environments remains challenging due to the lack of visual texture, strong specular reflections, severe occlusion, and the
-inevitable Sim-to-Real domain gap. To address these issues, we propose a novel grasping framework, termed Cross-Modal Alignment Grasping (CMAG), for texture-less industrial containers.
-Specifically, we first develop a dual-stream RGB-D instance segmentation network, termed
-Receptive Expansion YOLO (RE-YOLO). By incorporating the ADOWN module, an enhanced
-RE-C3K2 module, and a multi-scale dense fusion strategy, the network effectively captures
-both visual and geometric features by exploiting the complementarity between RGB and depth
-modalities. Building upon this, CMAG adopts a three-stage learning strategy. First, contrastive
-pre-training is performed on both unlabeled synthetic and real data to enhance cross-domain
-feature discriminability. Second, a domain adaptation stage introduces a Gradient Reversal Layer
-(GRL) for adversarial learning, enabling the extraction of domain-invariant representations.
-Finally, mask back-projection and principal axis analysis are employed to estimate reliable grasp
-poses for robotic manipulation. In addition, we construct and release a large-scale TextureLess Bottle (TLB) dataset to fill the gap in this domain. Extensive experiments demonstrate
-that CMAG effectively alleviates feature sparsity and domain shift in complex industrial
-environments. RE-YOLO achieves mAP50-95 scores of 89.5% and 91.6% on the TLB and Snack
-Box datasets, respectively, outperforming DS-YOLO by 0.7% and 1.5%. In cross-domain tasks,
-namely CDSB and CDTLB, CMAG attains mAP50-95 scores of 73.1% and 49.0%, surpassing
-the Source-only RE-YOLO baseline by 4.0% and 3.1%, respectively. 
+Robotic grasping of texture-less objects in cluttered industrial environments remains challenging due
+to limited visual texture, strong specular reflections, severe occlusion, depth noise, and the Sim-to-Real
+domain gap. To address these issues, we propose Cross-Modal Alignment Grasping (CMAG), a three-
+stage grasping framework for texture-less industrial containers. We first develop Receptive Expansion
+YOLO (RE-YOLO), a dual-stream RGB-D instance segmentation network that integrates ADOWN,
+an enhanced RE-C3K2 module, and multi-scale dense fusion to exploit complementary appearance
+and geometric information. Building on RE-YOLO, CMAG first performs hierarchical cross-modal
+contrastive pre-training on unlabeled synthetic and real RGB-D data to enhance transferable feature
+representations. It then introduces a Gradient Reversal Layer for adversarial domain adaptation,
+enabling the extraction of domain-invariant features while preserving geometric consistency. Finally,
+instance masks are back-projected into 3D point clouds, and principal-axis analysis is used to estimate
+grasp positions, surface normals, and object orientations. We also construct and release a large-
+scale Texture-Less Bottle (TLB) dataset. Extensive experiments demonstrate the effectiveness of the
+proposed framework. RE-YOLO achieves mAP50-95 scores of 89.5% and 91.6% on the TLB and
+Snack Box datasets, outperforming DS-YOLO by 0.7 and 1.5 percentage points, respectively. On the
+CDSB and CDTLB cross-domain tasks, CMAG reaches 73.1% and 49.0%, surpassing Source-only
+RE-YOLO by 4.0 and 3.1 points. Real-robot experiments further achieve success rates of 92.5% for
+static oriented bin picking and stacking and 93.1% for dynamic conveyor-belt picking, demonstrating
+robust deployment performance in realistic industrial sorting scenarios
 **The Complete Code and Datasets will be submitted after ours paper is accepts.**
 
 ## Datasets Download:
@@ -44,6 +46,7 @@ CROSS_TLB: https://drive.google.com/file/d/1MK-hAHTJukLC-G08AXFsH1SHjj4_Arbz/vie
 # Grasping demo video:
 ## Youtube
 https://youtu.be/lWrL7XP-W44
+https://youtu.be/4HDqdRFd8gE
 
 ## BiliBili
 https://www.bilibili.com/video/BV1s6RWB1EtJ/?vd_source=c8e55916427f2dee83d3fddf7eb1b7bd
