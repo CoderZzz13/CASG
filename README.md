@@ -1,23 +1,23 @@
-# A Grasping Method Based on Domain Generalization for Texture-Less Rectangular Bottles
+# A Sim-to-Real RGB-D Grasping Framework for Texture-Less Rectangular Bottles
 Robotic grasping of texture-less objects in cluttered industrial environments remains challenging due
-to limited visual texture, strong specular reflections, severe occlusion, depth noise, and the Sim-to-Real
-domain gap. To address these issues, we propose Cross-Modal Alignment Grasping (CMAG), a three-
-stage grasping framework for texture-less industrial containers. We first develop Receptive Expansion
-YOLO (RE-YOLO), a dual-stream RGB-D instance segmentation network that integrates ADOWN,
-an enhanced RE-C3K2 module, and multi-scale dense fusion to exploit complementary appearance
-and geometric information. Building on RE-YOLO, CMAG first performs hierarchical cross-modal
-contrastive pre-training on unlabeled synthetic and real RGB-D data to enhance transferable feature
-representations. It then introduces a Gradient Reversal Layer for adversarial domain adaptation,
-enabling the extraction of domain-invariant features while preserving geometric consistency. Finally,
-instance masks are back-projected into 3D point clouds, and principal-axis analysis is used to estimate
-grasp positions, surface normals, and object orientations. We also construct and release a large-
-scale Texture-Less Bottle (TLB) dataset. Extensive experiments demonstrate the effectiveness of the
-proposed framework. RE-YOLO achieves mAP50-95 scores of 89.5% and 91.6% on the TLB and
-Snack Box datasets, outperforming DS-YOLO by 0.7 and 1.5 percentage points, respectively. On the
-CDSB and CDTLB cross-domain tasks, CMAG reaches 73.1% and 49.0%, surpassing Source-only
-RE-YOLO by 4.0 and 3.1 points. Real-robot experiments further achieve success rates of 92.5% for
-static oriented bin picking and stacking and 93.1% for dynamic conveyor-belt picking, demonstrating
-robust deployment performance in realistic industrial sorting scenarios
+to limited visual texture, strong specular reflections, severe occlusion, depth noise, and the Sim-
+to-Real domain gap. To address these challenges, we first develop Receptive Expansion YOLO
+(RE-YOLO), a dual-stream RGB-D instance segmentation network that serves as the perception
+backbone. RE-YOLO combines ADOWN, our SRFEM-based RE-C3K2 module, and multi-scale
+dense fusion to strengthen weak-boundary perception and geometric feature representation. Building
+on RE-YOLO, we propose Cross-Modal Alignment Grasping (CMAG), a three-stage framework
+for Sim-to-Real robotic grasping without requiring annotated real-world RGB-D data. In Stage 1,
+hierarchical cross-modal contrastive pre-training is performed on unlabeled synthetic and real RGB-
+D data to learn transferable representations at both instance and region levels. In Stage 2, asymmetric
+GRL-based adversarial adaptation is applied to the RGB branch and cross-modal fusion layers to
+align source and target distributions while avoiding excessive alignment of noisy depth features.
+In Stage 3, predicted instance masks are back-projected into 3D point clouds, and principal-axis
+analysis is used to estimate grasp poses. We also construct and release the Texture-Less Bottle (TLB)
+dataset, containing 140,000 synthetic and 2,000 real RGB-D images. RE-YOLO achieves mAP50–95
+scores of 89.5% and 91.6% on TLB and Snack Box, respectively. On CDSB and CDTLB, CMAG
+reaches 73.1% and 49.0%, improving source-only RE-YOLO by 4.0 and 3.1 percentage points. Real-
+robot experiments achieve success rates of 92.5% for static oriented sorting and stacking and 93.1%
+for dynamic conveyor-belt picking. 
 **The Complete Code and Datasets will be submitted after ours paper is accepts.**
 
 ## Datasets Download:
