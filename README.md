@@ -83,7 +83,7 @@ Stage 3: Grasping Estimation. During the inference phase in real-world scenarios
 |:------------:|:------------------------:|:---------:|:------------:|
 | RGB+IR       | (2025)CAMDet           | 96.5    | 62.7       |
 | RGB+IR       | (2025)Mamba-Fusion       |**97**    | 63       |
-| RGB+IR       | (2025)RSDet          | 95.8     | 65.3        |
+| RGB+IR       | (2025)RSDet          | 95.8     | 61.3        |
 | RGB+IR       | (2025)EI²Det   | 98      | 63.9         |
 | RGB+IR       | (2025)DS-YOLO     | 97     | 65.3         |
 | RGB+IR       | (2025)VIF_YOLO          | 96.3     | 64.5        |
