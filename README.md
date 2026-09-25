@@ -45,8 +45,8 @@ CROSS_TLB: https://drive.google.com/file/d/1MK-hAHTJukLC-G08AXFsH1SHjj4_Arbz/vie
 
 # Grasping demo video:
 ## Youtube
-https://youtu.be/lWrL7XP-W44
-https://youtu.be/4HDqdRFd8gE
+https://youtu.be/lWrL7XP-W44     https://youtu.be/4HDqdRFd8gE
+
 
 ## BiliBili
 https://www.bilibili.com/video/BV1s6RWB1EtJ/?vd_source=c8e55916427f2dee83d3fddf7eb1b7bd
